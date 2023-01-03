@@ -1,7 +1,7 @@
 This project is made by BedlessBlade and is in VERY early development. 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 This program is just a
 small fun thing I made.
 This will probably not
@@ -9,7 +9,7 @@ get many updates but,
 I will update this with 
 a key listener and some
 other benefits.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 This project allows the user to type like a user on our redstone server, Open Redstone Engineers. The name of this player is Drz so you will see this in the code.
