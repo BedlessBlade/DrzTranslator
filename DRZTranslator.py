@@ -26,7 +26,7 @@ from pynput.keyboard import Key, Controller #Imports pynput library
 import time #Imports time so we can use the sleep function
 import random
 def probably(chance):
-    return random.random() < chance #Defines chance
+    return random.random() < chance #Defines chance for a later version
 key = Controller()
 while 1 == 1:
     user = input(" ").lower() #Defines text as 'user'
@@ -40,7 +40,11 @@ while 1 == 1:
     h = '4'
     i = 'benty'
     j = ':b:enti'
-    result = user.replace(a, b).replace(c, d).replace(e, f).replace(g, h).replace(i, j) #Here we replace all of the letters with the defined charectors. You can add more if you want by adding .replace(VAR, VAR)
+    k = 'i'
+    l = '1'
+    m = 'c'
+    n = 'k'
+    result = user.replace(a, b).replace(c, d).replace(e, f).replace(g, h).replace(i, j).replace(k, l).replace(m, n) #Here we replace all of the letters with the defined charectors. You can add more if you want by adding .replace(VAR, VAR)
     fresult = result + " xd" #Adds the xd to the end of a sentence just like drz. Defines it as Final Result or fresult
     key.press(Key.alt)
     time.sleep(0.01)
