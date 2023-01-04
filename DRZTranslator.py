@@ -28,40 +28,44 @@ import random
 def probably(chance):
     return random.random() < chance #Defines chance
 key = Controller()
-user = input(" ").lower() #Defines text as 'user'
-a = 'e' #These are the replacements. B is the replacement for A for example
-b = '3'
-c = 'o'
-d = '0'
-e = 'b'
-f = ':b:'
-g = 'a'
-h = '4'
-i = 'y'
-j = 'y'
-if probably(30 / 100):
-    j = 'i'
-result = user.replace(a, b).replace(c, d).replace(e, f).replace(g, h).replace(i, j) #Here we replace all of the letters with the defined charectors. You can add more if you want by adding .replace(VAR, VAR)
-fresult = result + " xd" #Adds the xd to the end of a sentence just like drz. Defines it as Final Result or fresult
-key.press(Key.alt)
-time.sleep(0.1)
-key.press(Key.tab)
-time.sleep(0.1)
-key.release(Key.tab)
-time.sleep(0.1)
-key.release(Key.alt)
-time.sleep(0.2)
-key.type(fresult)
-time.sleep(0.1)
-key.press(Key.enter)
-time.sleep(0.1)
-key.release(Key.enter)
-time.sleep(0.2)
-key.press(Key.alt)
-time.sleep(0.1)
-key.press(Key.tab)
-time.sleep(0.1)
-key.release(Key.tab)
-time.sleep(0.1)
-key.release(Key.alt)
-time.sleep(0.2)
+while 1 == 1:
+    user = input(" ").lower() #Defines text as 'user'
+    a = 'e' #These are the replacements. B is the replacement for A for example
+    b = '3'
+    c = 'o'
+    d = '0'
+    e = 'b'
+    f = ':b:'
+    g = 'a'
+    h = '4'
+    i = 'benty'
+    j = ':b:enti'
+    result = user.replace(a, b).replace(c, d).replace(e, f).replace(g, h).replace(i, j) #Here we replace all of the letters with the defined charectors. You can add more if you want by adding .replace(VAR, VAR)
+    fresult = result + " xd" #Adds the xd to the end of a sentence just like drz. Defines it as Final Result or fresult
+    key.press(Key.alt)
+    time.sleep(0.01)
+    key.press(Key.tab)
+    time.sleep(0.01)
+    key.release(Key.tab)
+    time.sleep(0.01)
+    key.release(Key.alt)
+    time.sleep(0.02)
+    key.type(fresult)
+    time.sleep(0.01)
+    key.press(Key.enter)
+    time.sleep(0.01)
+    key.release(Key.enter)
+    time.sleep(0.02)
+    key.press('t')
+    time.sleep(0.01)
+    key.release('t')
+    time.sleep(0.02)
+    key.press(Key.alt)
+    time.sleep(0.01)
+    key.press(Key.tab)
+    time.sleep(0.01)
+    key.release(Key.tab)
+    time.sleep(0.01)
+    key.release(Key.alt)
+    time.sleep(0.02)
+
