@@ -46,6 +46,8 @@ while 1 == 1:
     n = 'k'
     result = user.replace(a, b).replace(c, d).replace(e, f).replace(g, h).replace(i, j).replace(k, l).replace(m, n) #Here we replace all of the letters with the defined charectors. You can add more if you want by adding .replace(VAR, VAR)
     fresult = result + " xd" #Adds the xd to the end of a sentence just like drz. Defines it as Final Result or fresult
+    print("original text:", user)
+    print(fresult)
     key.press(Key.alt)
     time.sleep(0.01)
     key.press(Key.tab)
