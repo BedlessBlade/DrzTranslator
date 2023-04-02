@@ -1,7 +1,7 @@
 # DRZtranslator
 
 This project is made by BedlessBlade and is in VERY early development. 
-Version: 0.3
+Version: 0.4
 
 %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -39,6 +39,6 @@ Third, go back to the program and type your message.
 
 Patch notes:
 
-More accurate chat, and actually fixed a bunch of bugs that I was finding.
+Made a smaller, more easy to read release which is also faster.
 
 							-BedlessBlade
