@@ -1,6 +1,7 @@
 from pynput.keyboard import Key, Controller
 import time
 key = Controller()
+t = input("Type Y if you are using minecraft chat and anything else if you are using discord: ")
 while 1 == 1:
     user = input(" ").lower()
     result = user.replace("e", "3").replace("o", "0").replace("b", ":b:").replace("a", "4").replace("benty", ":b:3nt1").replace("i", "1").replace("c", "k")
@@ -21,9 +22,10 @@ while 1 == 1:
     time.sleep(0.01)
     key.release(Key.enter)
     time.sleep(0.02)
-    key.press('t')
-    time.sleep(0.01)
-    key.release('t')
+    if t == str("y"):
+        key.press('t')
+        time.sleep(0.01)
+        key.release('t')
     time.sleep(0.02)
     key.press(Key.alt)
     time.sleep(0.01)
